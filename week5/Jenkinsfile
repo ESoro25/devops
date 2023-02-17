@@ -51,7 +51,6 @@ podTemplate(podRetention: onFailure(), containers: [
         	            pwd
                		    cd Chapter08/sample1
                 	    ./gradlew CheckstyleMain
-                        ./gradlew jacocoTestReport
                         '''
                     } catch (Exception E) {
                         echo 'Failure detected'
